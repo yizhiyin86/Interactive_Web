@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta charset="UTF-8">
+    <title>UFO_Event</title>
+    <link rel="stylesheet" href="https://bootswatch.com/4/minty/bootstrap.css"> 
+  
+
+</head>
+<body>
+  
+  <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+    <div class="form-group">
+      <form class="form-inline my-2 my-lg-0">
+        <input class="form-control mr-sm-2" type="text" id="date" placeholder="date M/D/YYYY">
+        <input class="form-control mr-sm-2" type="text" id="city" placeholder="city">
+        <input class="form-control mr-sm-2" type="text" id="state" placeholder="state e.g. ca">
+        <input class="form-control mr-sm-2" type="text" id="country" placeholder="country e.g. us">
+        <input class="form-control mr-sm-2" type="text" id="shape" placeholder="shape such as circle/light/triangle">
+
+        <a id="search" class="btn btn-secondary my-2 my-sm-0">Search</a>
+        <!-- <button id="search" class="btn btn-secondary my-2 my-sm-0" >Search</button> -->
+      </form>
+    </div>
+  </nav>
+  <div class="row">
+    <div class="col-md-12">
+      <table id='table_UFO' class="table table-hover">
+        <thead>
+          <tr>
+            <th scope="col">date/time</th>
+            <th scope="col">city</th>
+            <th scope="col">state</th>
+            <th scope="col">country</th>
+            <th scope="col">shape</th>
+            <th scope="col">durationMinutes</th>
+            <th scope="col">comment</th>
+          </tr>
+        </thead>
+        <tbody>
+        </tbody>
+      </table>
+    </div>
+  </div>
+
+  <script src="Data/data.js" type="text/javascript"></script>
+  
+  <script src="index.js" type="text/javascript"></script>
+  
+  
+  
+  
+
+</body>
+</html>
